@@ -1,0 +1,5 @@
+https://gist.github.com/shanbhardwaj/866f20e98303379ca8bfbe2f0c5b7a87
+
+sudo apt install libpng-dev libjpeg-dev libtiff-dev
+
+sudo apt install imagemagick libmagickwand-dev
