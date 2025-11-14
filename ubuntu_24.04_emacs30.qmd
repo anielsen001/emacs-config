@@ -14,5 +14,14 @@ sudo apt build-dep emacs
 E: You must put some 'deb-src' URIs in your sources.list
 sudo software-properties-gtk # and turn on source code
 
+## add melpa pacakages
+
+include in `.emacs` file
+```
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+```
+
 ## set themes
 https://github.com/n3mo/cyberpunk-theme.el
