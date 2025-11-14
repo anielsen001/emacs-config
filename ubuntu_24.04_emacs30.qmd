@@ -13,3 +13,6 @@ sudo apt install tree-sitter-cli libtree-sitter-dev
 sudo apt build-dep emacs
 E: You must put some 'deb-src' URIs in your sources.list
 sudo software-properties-gtk # and turn on source code
+
+## set themes
+https://github.com/n3mo/cyberpunk-theme.el
