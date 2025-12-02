@@ -35,6 +35,9 @@ include in `.emacs` file
 (package-initialize)
 ```
 
+if there are problems with the gpg keys for packages, see
+https://metaredux.com/posts/2019/12/09/dealing-with-expired-elpa-gpg-keys.html
+
 ## set themes
 
 https://github.com/n3mo/cyberpunk-theme.el
