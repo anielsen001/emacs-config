@@ -14,6 +14,10 @@ sudo apt build-dep emacs
 sudo software-properties-gtk # and turn on source code
 ```
 
+## get sources
+
+https://ftp.gnu.org/pub/gnu/emacs/
+
 ## build
 
 ```bash
