@@ -1,18 +1,26 @@
+## Dependencies
+
 https://gist.github.com/shanbhardwaj/866f20e98303379ca8bfbe2f0c5b7a87
 
+```bash
 sudo apt install libpng-dev libjpeg-dev libtiff-dev
-
 sudo apt install imagemagick libmagickwand-dev
-
-
-
 sudo apt-get install libgtk-3-dev
 sudo apt install libxpm-dev libgif-dev libgnutls28-dev
 sudo apt install libtinfo-dev libncurses-dev 
 sudo apt install tree-sitter-cli libtree-sitter-dev
 sudo apt build-dep emacs
-E: You must put some 'deb-src' URIs in your sources.list
+# E: You must put some 'deb-src' URIs in your sources.list
 sudo software-properties-gtk # and turn on source code
+```
+
+## build
+
+```bash
+./configure --prefix=$HOME/sw
+make -j 16
+make install
+```
 
 ## add melpa pacakages
 
@@ -24,4 +32,5 @@ include in `.emacs` file
 ```
 
 ## set themes
+
 https://github.com/n3mo/cyberpunk-theme.el
